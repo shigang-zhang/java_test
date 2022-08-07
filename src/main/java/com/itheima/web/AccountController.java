@@ -20,6 +20,7 @@ public class AccountController {
 
     @RequestMapping("find")
     public List<Account> findAccount(){
+        System.out.println("张仕刚");
         List<Account> accountList = accountService.findAll();
         return accountList;
     }
