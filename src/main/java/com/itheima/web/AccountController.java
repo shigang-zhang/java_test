@@ -22,6 +22,7 @@ public class AccountController {
     public List<Account> findAccount(){
         System.out.println("张仕刚");
         List<Account> accountList = accountService.findAll();
+        int i = 1;
         System.out.println("kkk");
         return accountList;
     }
