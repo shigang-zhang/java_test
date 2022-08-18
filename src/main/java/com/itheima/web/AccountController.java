@@ -24,6 +24,7 @@ public class AccountController {
         List<Account> accountList = accountService.findAll();
         int i = 1;
         System.out.println("rrr");
+        int k = 0;
         System.out.println("kkk");
         return accountList;
     }
