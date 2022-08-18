@@ -22,7 +22,7 @@ public class AccountController {
     public List<Account> findAccount(){
         System.out.println("张仕刚");
         List<Account> accountList = accountService.findAll();
-        System.out.println("fff");
+        System.out.println("kkk");
         return accountList;
     }
 }
